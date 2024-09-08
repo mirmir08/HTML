@@ -1,0 +1,35 @@
+.imagenes{
+    width: 200px;
+    /* Para clases */
+}
+
+img{
+    width: 500px;
+    /* para etiquetas */
+}
+
+#im1 {
+    width: 200px;
+    /* Para id */
+}
+
+.classimagenes{
+    display: flex;
+    align-content: space-around;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    margin: 20px 200px;
+
+
+
+}
+
+
+    /*display: grid;
+    /* grid-template-columns: 100px 100px; 
+    grid-template-columns: repeat(3, 3fr);/*
+
+
+
